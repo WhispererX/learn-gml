@@ -1,12 +1,31 @@
-# React + Vite
+# LearnGML
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[**LearnGML**](https://learngml.com) is a comprehensive curriculum website designed to teach users how to create games with **GameMaker**. Whether you're just starting out or aiming to master advanced concepts, LearnGML provides structured paths and resources to accelerate your learning.
 
-Currently, two official plugins are available:
+## Curriculum Paths
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Foundations Path**: Start here to build a solid understanding of the basics of GameMaker and game development principles.
+- **GML Path**: Dive deep into GameMaker Language (GML) to gain full programming control over your games.
+- **GML Visual Path**: Learn GML through visual scripting, making it easier to understand logic and game mechanics without writing code directly.
 
-## Expanding the ESLint configuration
+## What You'll Learn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- From **basics to advanced** topics in GameMaker.
+- **Guided tutorials** and **hands-on projects** to reinforce learning.
+- Resources and tips to help you **learn faster and more efficiently**.
+
+LearnGML is something we wish existed when we were learning GameMaker—bringing together all the knowledge, tools, and projects in one accessible platform.
+
+## Contributing
+
+LearnGML is an **open-source project**, and contributions are welcome! Whether you want to:
+
+- Improve existing tutorials
+- Add new learning paths or projects
+- Suggest new features or resources
+
+…you can help make LearnGML better for everyone. Check out the repository, open an issue, or submit a pull request to get involved.
+
+---
+
+Start your GameMaker journey today with LearnGML and build the games you’ve always wanted to make!
