@@ -1,10 +1,11 @@
 import './App.css';
+import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 
 function App() {
   return (
     <>
-      <h1>Coming Soon</h1>
-      <p>We are working on something awesome!</p>
+      <h1>App</h1>
     </>
   );
 }
