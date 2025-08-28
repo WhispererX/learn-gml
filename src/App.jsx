@@ -1,11 +1,10 @@
 import './App.css';
-import { Link } from 'react-router';
-import { NavLink } from 'react-router';
+import Header from './components/header/header';
 
 function App() {
   return (
     <>
-      <h1>App</h1>
+      <Header />
     </>
   );
 }

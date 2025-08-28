@@ -16,7 +16,7 @@
   /* Neutral / Grayscale */
   --color-background: #101828;
   --color-surface: #364153;
-  --color-border: #99a1af;
+  --color-border: rgba(153, 161, 175, 0.1);
   --color-text-primary: #ffffff;
   --color-text-secondary: #d1d5db;
   --color-text-muted: #99a1af;
@@ -35,6 +35,7 @@
   --shadow-light: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-heavy: 0 10px 15px rgba(0, 0, 0, 0.15);
+  --glow: 0 0px 10px rgba(101, 170, 161, 0.5);
 
   /* Border radius */
   --radius-sm: 0.25rem;
@@ -54,11 +55,19 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --color-primary-light: #FAFAFA;
+
     --color-background: #ffffff;
     --color-surface: #f3f4f6;
     --color-border: #d1d5db;
     --color-text-primary: #111827;
     --color-text-secondary: #374151;
     --color-text-muted: #6b7280;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 20px;
   }
 }
