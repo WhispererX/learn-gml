@@ -1,4 +1,4 @@
-import './ComingSoon.module.css';
+import './ComingSoon.css';
 
 function ComingSoon() {
   return (
