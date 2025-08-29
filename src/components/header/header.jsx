@@ -8,25 +8,27 @@ import { FaDonate } from 'react-icons/fa';
 
 function Header() {
   return (
-    <Navbar>
-      <Link to="/">
-        <AiFillHome />
-        About
-      </Link>
-      <Link to="/">
-        <FaMap />
-        Paths
-      </Link>
-      <Link to="/">
-        <IoChatboxEllipses />
-        Community
-      </Link>
-      <Link to="/">
-        <FaDonate />
-        Support us
-      </Link>
-      <button>Get Started</button>
-    </Navbar>
+    <header>
+      <Navbar>
+        <Link to="/">
+          <AiFillHome />
+          About
+        </Link>
+        <Link to="/">
+          <FaMap />
+          Paths
+        </Link>
+        <Link to="/">
+          <IoChatboxEllipses />
+          Community
+        </Link>
+        <Link to="/">
+          <FaDonate />
+          Support us
+        </Link>
+        <button>Get Started</button>
+      </Navbar>
+    </header>
   );
 }
 
