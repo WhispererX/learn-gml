@@ -36,8 +36,8 @@ function Footer() {
           </div>
           <div className={styles.column}>
             <h4>Legal</h4>
-            <Link to="/">Terms</Link>
-            <Link to="/">Privacy</Link>
+            <Link to="/terms">Terms</Link>
+            <Link to="/privacy">Privacy</Link>
           </div>
         </div>
       </div>
