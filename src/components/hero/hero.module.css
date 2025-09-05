@@ -1,0 +1,82 @@
+.heading {
+  color: var(--color-primary);
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0;
+  margin-top: 2rem;
+  gap: 1rem;
+  background-image: url('../../assets/gamemaker-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 100%;
+
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    h1,
+    button {
+      margin: 1rem;
+    }
+
+    p {
+      margin: 0.2rem 1rem;
+      text-align: justify;
+    }
+
+    button {
+      align-self: start;
+    }
+  }
+
+  .imageContainer {
+    display: inline-grid;
+    grid-template: 1fr 1fr / repeat(3, 100px);
+    grid-template-areas:
+      'example1 example1 .'
+      '. example2 example2';
+    justify-content: center;
+    align-items: center;
+
+    #gm-example-1 {
+      grid-area: example1;
+    }
+
+    #gm-example-2 {
+      grid-area: example2;
+    }
+  }
+}
+
+@media only screen and (max-width: 862px) {
+  .heroContainer {
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .heroContainer {
+    .imageContainer {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heroContainer {
+    padding: 1rem;
+    justify-content: center;
+    background-image: none;
+    margin-top: 0;
+
+    .infoContainer {
+      font-size: 0.8rem;
+    }
+  }
+}

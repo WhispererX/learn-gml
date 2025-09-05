@@ -10,31 +10,34 @@ function Navbar({ children }) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   return (
-    <nav className={showMobileMenu ? styles.mobile : ''}>
-      {/* Logo */}
-      <Link to="/">
-        <img src={Logo} alt="Logo" width={250} />
-      </Link>
+    <>
+      <div className={showMobileMenu ? styles.padding : ''}></div>
+      <nav className={showMobileMenu ? styles.mobile : ''}>
+        {/* Logo */}
+        <Link to="/">
+          <img src={Logo} alt="Logo" width={250} />
+        </Link>
 
-      {/* Close Mobile Menu */}
-      <button
-        className={styles.closeMenu}
-        onClick={() => setShowMobileMenu(false)}>
-        <IoClose />
-      </button>
+        {/* Close Mobile Menu */}
+        <button
+          className={styles.closeMenu}
+          onClick={() => setShowMobileMenu(false)}>
+          <IoClose />
+        </button>
 
-      {/* Links */}
-      <ul className={styles.links}>
-        {Children.map(children, (child) => (
-          <li className={styles.link}>{child}</li>
-        ))}
-      </ul>
+        {/* Links */}
+        <ul className={styles.links}>
+          {Children.map(children, (child) => (
+            <li className={styles.link}>{child}</li>
+          ))}
+        </ul>
 
-      {/* Mobile Menu */}
-      <button className={styles.menu} onClick={() => setShowMobileMenu(true)}>
-        <LuMenu className={styles.menuIcon} />
-      </button>
-    </nav>
+        {/* Mobile Menu */}
+        <button className={styles.menu} onClick={() => setShowMobileMenu(true)}>
+          <LuMenu className={styles.menuIcon} />
+        </button>
+      </nav>
+    </>
   );
 }
 

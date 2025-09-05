@@ -1,0 +1,15 @@
+.primaryButton {
+  background-color: var(--color-primary);
+  color: #fafafa;
+  border: none;
+  padding: 8px 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer !important;
+  transition: transform 150ms;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: var(--glow);
+  }
+}

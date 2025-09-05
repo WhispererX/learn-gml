@@ -9,7 +9,7 @@ function TermsConditions() {
   return (
     <>
       <Header />
-      <main>
+      <main className='document'>
         <h1>Terms and Conditions</h1>
         <p>Last updated: August 30, 2025</p>
         <p>

@@ -10,7 +10,7 @@ function PrivacyPolicy() {
   return (
     <>
       <Header />
-      <main>
+      <main className='document'>
         <h1>Privacy Policy</h1>
         <p>Last updated: August 30, 2025</p>
         <p>

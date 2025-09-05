@@ -5,6 +5,7 @@ import { AiFillHome } from 'react-icons/ai';
 import { FaMap } from 'react-icons/fa';
 import { IoChatboxEllipses } from 'react-icons/io5';
 import { FaDonate } from 'react-icons/fa';
+import PrimaryButton from '../primary-button/primary-button';
 
 function Header() {
   return (
@@ -26,7 +27,7 @@ function Header() {
           <FaDonate />
           Support us
         </Link>
-        <button>Get Started</button>
+        <PrimaryButton text="Get Started" />
       </Navbar>
     </header>
   );

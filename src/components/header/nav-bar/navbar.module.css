@@ -45,21 +45,7 @@ nav {
         }
       }
 
-      button {
-        background-color: var(--color-primary);
-        color: #FAFAFA;
-        border: none;
-        padding: 8px 12px;
-        font-weight: 500;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: transform 150ms;
-
-        &:hover {
-          transform: scale(1.05);
-          box-shadow: var(--glow);
-        }
-      }
+      
     }
   }
 
@@ -88,13 +74,17 @@ nav {
   display: none;
 }
 
-@media only screen and (max-width: 830px) {
+.padding {
+  margin-bottom: calc(2.65rem + 2rem);
+}
+
+@media only screen and (max-width: 845px) {
   nav {
     justify-content: center;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   nav {
     justify-content: space-between;
 
